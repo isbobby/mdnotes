@@ -65,4 +65,3 @@ There can be multiple scenarios where page fault happens.
 2. Allocated in process, but not mapped
 3. Allocated in process, and mapped to the main memory
 4. Allocated in process, but mapped to a swap device
-
