@@ -99,3 +99,21 @@ Note we have two extra special token types - `EOF` and `ILLEGAL`. Although they 
 
 EOF - tells the parser to stop
 ILLEGAL - represents an illegal character that does not map to any type.
+
+### A Basic Lexer
+With the `Token` type established, we can write a basic lexer to read source code `let a = 1` and output the next token it recognises. We will expose the output with a `NextToken` function, so we don't need to save the read tokens in a buffer.
+
+Here, we also assume the source code will be in `string`. In a production lexer, it's more likely we will be using `io.Reader` together with the filename in order to output information such as filename and line.
+
+We can translate different requirements of a lexer into test cases, and use these tests to drive development.
+
+#### Base Case - recognising single character tokens
+```
+input := `=+ ,;`
+expects := []Token {
+    {token.ASSIGN, "="},
+    {token.PLUS, "+"},
+    {token.COMMA, ","},
+    {token.SEMICOLON, ";"},
+}
+```

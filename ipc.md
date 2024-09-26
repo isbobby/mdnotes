@@ -25,4 +25,4 @@ On Linux, the implementation can be achieved with message queue, pipes and socke
 ### Pipes
 
 ### Sockets
-Sockets can be used for communication between processes, either on the same machine or over a network.
+Sockets can be used for communication between processes, either on the same machine or over a network. 
