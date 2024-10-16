@@ -4,26 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "876ef3fcaf6de40d",
+        "id": "825b59da0f7c7fd7",
         "type": "tabs",
         "children": [
           {
-            "id": "efa96a953bccadf9",
+            "id": "f2954e2223d92e11",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "databases/relational database/Relational Database Architecture.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
-            "id": "e0ed3027a98da60a",
+            "id": "09bc85a70329f791",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "databases/relational database/Relational Database Architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aebe6b228f2295eb",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,18 +163,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "efa96a953bccadf9",
+  "active": "aebe6b228f2295eb",
   "lastOpenFiles": [
+    "databases/relational database/Relational Database Architecture.md",
+    "databases/relational database/Concurrency Control in RDBMS.md",
+    "databases/relational database/Relational Database Internals.md",
+    "databases/relational database/Distributed Databases.md",
+    "databases/relational database/Transaction Processing and Recovery.md",
+    "Distributed.md",
+    "().md",
+    "readme.md",
+    "data structures/Binary Search Tree.md",
+    "networking/HTTP.md",
+    "security/RSA.md",
+    "security/SSL, TLS.md",
+    "linux/poll & epoll.md",
+    "linux/File Descriptors.md",
+    "programming language/garbage collection",
+    "middlewares/message queue",
+    "middlewares",
+    "databases/relational database",
+    "databases",
+    "linux",
+    "networking/HTTPs.md",
+    "networking",
+    "security",
+    "computer systems/Inter Process Communication.md",
     "Untitled.canvas",
     "computer systems/Virtual Memory.md",
     "computer systems/Memory.md",
-    "computer systems/Inter Process Communication.md",
-    "readme.md.md",
     "programming language/Stack and Heap.md",
     "programming language/Lexical Analysis.md",
     "programming language",
     "data structures/Hashmap.md",
-    "data structures/Binary Search Tree.md",
     "computer systems"
   ]
 }
