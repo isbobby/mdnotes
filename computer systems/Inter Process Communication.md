@@ -1,4 +1,3 @@
-# Inter Process Communication
 Allows processes to talk to each other. Mainly by shared memory, or message passing.
 
 ## Shared Memory
@@ -13,7 +12,7 @@ To clean up, both processes can detach from the shared memory region.
 ## Message Passing
 Message passing allows two processes to communicate by sending and receiving a message.
 
-It can be configured to have direct / indirect addressing, synchrnous / asynchronous, buffered / unbuffered.
+It can be configured to have direct / indirect addressing, synchronous / asynchronous, buffered / unbuffered.
 
 A communication link has to be created between two processes, and messages are delivered into a `mailbox` of the receiver process.
 

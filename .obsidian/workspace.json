@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "c0f31951211971cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "876ef3fcaf6de40d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efa96a953bccadf9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "e0ed3027a98da60a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bdcd839ec751ad35",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc9f9099dcfd87dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4a91d704efb8dc4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dd92d84e78fb2f80",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d333439804861879",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "21edddcb71abd69f",
+    "type": "split",
+    "children": [
+      {
+        "id": "6910b5a50eac96a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52d715616e318369",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "32c016f73ec64484",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "20f01d436b040df5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4f983fd5cdd875ef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "efa96a953bccadf9",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "computer systems/Virtual Memory.md",
+    "computer systems/Memory.md",
+    "computer systems/Inter Process Communication.md",
+    "readme.md.md",
+    "programming language/Stack and Heap.md",
+    "programming language/Lexical Analysis.md",
+    "programming language",
+    "data structures/Hashmap.md",
+    "data structures/Binary Search Tree.md",
+    "computer systems"
+  ]
+}

@@ -1,4 +1,4 @@
-# Lexing
+
 Programming language helps us communicate with the computer. While plain text is convenient for us humans, they can be cumbersome for computers to interpret.
 
 Hence, our source code undergoes two stages of transformation, from source code, to tokens, and then an abstract syntax tree.
@@ -11,9 +11,9 @@ flowchart LR
 The first transformation from source code to tokens, is called "lexical analysis", or "lexing" for short. It is done by a lexer.
 
 **Source Code** - human readable programming language
-**Tokens** - small, easily categorizable data structure that are fed to the parser
+**Tokens** - small, easily categorisable data structure that are fed to the parser
 
-For example, the input `let a = 1 + 2;` can evaludate to the following, where whitespace characters don't show up as tokens.
+For example, the input `let a = 1 + 2;` can evaluate to the following, where whitespace characters don't show up as tokens.
 
 ```
 [
@@ -27,7 +27,7 @@ For example, the input `let a = 1 + 2;` can evaludate to the following, where wh
 ]
 ```
 
-Note that in some languages like Python, the length of whitespace is significant, so the lexer can't just discard the whitespace and newline characters. Instead, they have to output the whitespace charactrers as tokens for the parser.
+Note that in some languages like Python, the length of whitespace is significant, so the lexer can't just discard the whitespace and newline characters. Instead, they have to output the whitespace characters as tokens for the parser.
 
 Production ready lexer may also attach the line number, column number and filename to a token - to later output useful error messages in the parsing stage. For example, instead of `error - missing semicolon`, it will output
 

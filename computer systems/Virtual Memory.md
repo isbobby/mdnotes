@@ -1,9 +1,8 @@
-# Virtual Memory
-To satisfy the above requirement, we use virtual memory to abstract memeory management for processes.
+To satisfy the above requirement, we use virtual memory to abstract memory management for processes.
 
-A process primarily uses virtual memeory addresses. It does not have to worry about the underlying mechanism to map virtual address to physical address.
+A process primarily uses virtual memory addresses. It does not have to worry about the underlying mechanism to map virtual address to physical address.
 
-It also does not need to worry about accessing memeory in a safe way as most OS will raise related error.
+It also does not need to worry about accessing memory in a safe way as most OS will raise related error.
 
 When the memory is oversubscribed, virtual memory also abstracts swapping so processes need to worry about this process.
 

@@ -1,4 +1,3 @@
-# Memory
 # Background
 Computer programs can use any amount of data when it's running. 
 
@@ -25,7 +24,7 @@ The processor is fast but can only hold a small amount of data, it usually needs
 
 The processor fetches instructions by accessing the instruction located at the address speicifed by the program counter.
 
-The processor fetches data by providing the memory subsystem a physical memeory address, the memeory subsystem retrieves the data from RAM.
+The processor fetches data by providing the memory subsystem a physical memory address, the memory subsystem retrieves the data from RAM.
 
-We need to supply memeory reliably to processors.
+We need to supply memory reliably to processors.
 
