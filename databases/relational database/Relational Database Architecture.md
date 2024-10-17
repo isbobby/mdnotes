@@ -45,3 +45,10 @@ The storage engine is a big component comprising of the following modules
 5. Recovery Manager - maintains the operation log and restore the system in case of a failure
 
 The storage engine is important in providing access to efficient data structures, such as . It is also responsible for [transaction processing and recovery](Transaction%20Processing%20and%20Recovery.md).
+
+### Storage Engine
+There is distinction between databases, in terms of [how the data is stored](Data%20Layout%20In%20Databases). This determines how different storage engines operate. Besides data orientation, storage engines also differ in three main aspects.
+
+1. Buffering - refers to the degree of caching before writing back to disk.
+2. Mutability - this defines whether the database is append-only, or does in-place update.
+3. Ordering - this defines if the data records are stored in the key order.

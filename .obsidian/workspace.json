@@ -25,22 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "databases/relational database/Relational Database Architecture.md",
+                "file": "data structures/Binary Search Tree.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "aebe6b228f2295eb",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "data structures/Binary Search Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "data structures/Binary Search Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "data structures/Binary Search Tree.md"
+              }
             }
           }
         ]
@@ -163,12 +159,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aebe6b228f2295eb",
+  "active": "09bc85a70329f791",
   "lastOpenFiles": [
     "databases/relational database/Relational Database Architecture.md",
-    "databases/relational database/Concurrency Control in RDBMS.md",
+    "databases/relational database/Data Layout in Databases.md",
+    "databases/NoSQL database/Wide Column Stores.md",
+    "databases/NoSQL database",
     "databases/relational database/Relational Database Internals.md",
+    "middlewares/message queue/RabbitMQ Internals.md",
+    "microservices/kubernetes objects",
+    "microservices",
     "databases/relational database/Distributed Databases.md",
+    "databases/relational database/database recovery",
+    "databases/relational database/Concurrency Control in RDBMS.md",
     "databases/relational database/Transaction Processing and Recovery.md",
     "Distributed.md",
     "().md",
@@ -186,16 +189,12 @@
     "databases",
     "linux",
     "networking/HTTPs.md",
-    "networking",
-    "security",
     "computer systems/Inter Process Communication.md",
     "Untitled.canvas",
     "computer systems/Virtual Memory.md",
     "computer systems/Memory.md",
     "programming language/Stack and Heap.md",
     "programming language/Lexical Analysis.md",
-    "programming language",
-    "data structures/Hashmap.md",
-    "computer systems"
+    "data structures/Hashmap.md"
   ]
 }
