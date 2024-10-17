@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data structures/Binary Search Tree.md",
+                "file": "computer operating system/Memory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5be6940019b078c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer operating system/Memory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d941b9b70842bf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer operating system/concepts/Kernel and Shell.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data structures/Binary Search Tree.md",
+                "file": "computer operating system/concepts/Kernel and Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data structures/Binary Search Tree.md",
+                "file": "computer operating system/concepts/Kernel and Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data structures/Binary Search Tree.md"
+                "file": "computer operating system/concepts/Kernel and Shell.md"
               }
             }
           }
@@ -159,8 +183,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "09bc85a70329f791",
+  "active": "9d941b9b70842bf0",
   "lastOpenFiles": [
+    "computer operating system/concepts/Kernel and Shell.md",
+    "software systems",
+    "computer operating system/concepts",
+    "computer operating system/Memory.md",
+    "computer operating system/Inter Process Communication.md",
+    "computer operating system/Virtual Memory.md",
+    "computer operating system/Processor.md",
+    "data structures/Binary Search Tree.md",
     "databases/relational database/Relational Database Architecture.md",
     "databases/relational database/Data Layout in Databases.md",
     "databases/NoSQL database/Wide Column Stores.md",
@@ -176,7 +208,6 @@
     "Distributed.md",
     "().md",
     "readme.md",
-    "data structures/Binary Search Tree.md",
     "networking/HTTP.md",
     "security/RSA.md",
     "security/SSL, TLS.md",
@@ -186,15 +217,9 @@
     "middlewares/message queue",
     "middlewares",
     "databases/relational database",
-    "databases",
-    "linux",
     "networking/HTTPs.md",
-    "computer systems/Inter Process Communication.md",
     "Untitled.canvas",
-    "computer systems/Virtual Memory.md",
-    "computer systems/Memory.md",
     "programming language/Stack and Heap.md",
-    "programming language/Lexical Analysis.md",
-    "data structures/Hashmap.md"
+    "programming language/Lexical Analysis.md"
   ]
 }
