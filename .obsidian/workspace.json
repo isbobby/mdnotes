@@ -4,59 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "825b59da0f7c7fd7",
+        "id": "8b2f310e43b45cc1",
         "type": "tabs",
         "children": [
           {
-            "id": "f2954e2223d92e11",
+            "id": "2ddc4473868be581",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "databases/relational database/Relational Database Architecture.md",
+                "file": "software systems/notifications/Push Notification System Design.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "09bc85a70329f791",
+            "id": "946d9ef1d2d617e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer operating system/Memory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5be6940019b078c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer operating system/Memory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d941b9b70842bf0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer operating system/concepts/Kernel and Shell.md",
+                "file": "software systems/notifications/Push Notification System Design.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer operating system/concepts/Kernel and Shell.md",
+                "file": "software systems/notifications/Push Notification System Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer operating system/concepts/Kernel and Shell.md",
+                "file": "software systems/notifications/Push Notification System Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer operating system/concepts/Kernel and Shell.md"
+                "file": "software systems/notifications/Push Notification System Design.md"
               }
             }
           }
@@ -183,17 +159,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d941b9b70842bf0",
+  "active": "946d9ef1d2d617e3",
   "lastOpenFiles": [
+    "readme.md",
+    "software systems/notifications/Push Notification System Design.md",
+    "algoirithms/Rate Limiting.md",
+    "algoirithms",
+    "databases/research/Google BigTable.md",
+    "databases/research",
+    "software systems/notifications",
+    "databases/relational database/Relational Database Architecture.md",
+    "computer operating system/Memory.md",
     "computer operating system/concepts/Kernel and Shell.md",
     "software systems",
     "computer operating system/concepts",
-    "computer operating system/Memory.md",
     "computer operating system/Inter Process Communication.md",
     "computer operating system/Virtual Memory.md",
     "computer operating system/Processor.md",
     "data structures/Binary Search Tree.md",
-    "databases/relational database/Relational Database Architecture.md",
     "databases/relational database/Data Layout in Databases.md",
     "databases/NoSQL database/Wide Column Stores.md",
     "databases/NoSQL database",
@@ -207,19 +190,13 @@
     "databases/relational database/Transaction Processing and Recovery.md",
     "Distributed.md",
     "().md",
-    "readme.md",
     "networking/HTTP.md",
     "security/RSA.md",
     "security/SSL, TLS.md",
     "linux/poll & epoll.md",
     "linux/File Descriptors.md",
     "programming language/garbage collection",
-    "middlewares/message queue",
-    "middlewares",
-    "databases/relational database",
     "networking/HTTPs.md",
-    "Untitled.canvas",
-    "programming language/Stack and Heap.md",
-    "programming language/Lexical Analysis.md"
+    "Untitled.canvas"
   ]
 }
