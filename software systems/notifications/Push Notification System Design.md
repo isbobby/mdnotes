@@ -33,7 +33,7 @@ The notification system can have to main interfaces
 1. interface to receive notification events which trigger a notification sending process
 2. interface with service providers such as APNS and SMTP, who the system uses to send out notification to devices
 
-```mermaid.js
+```mermaid
 flowchart LR
 	trigger_api(APIs)
 	mqueue_in(Inbound Message Queue)

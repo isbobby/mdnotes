@@ -23,12 +23,8 @@
             "id": "946d9ef1d2d617e3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "software systems/notifications/Push Notification System Design.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -78,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "software systems/notifications/Push Notification System Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "software systems/notifications/Push Notification System Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "software systems/notifications/Push Notification System Design.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -161,8 +154,8 @@
   },
   "active": "946d9ef1d2d617e3",
   "lastOpenFiles": [
-    "readme.md",
     "software systems/notifications/Push Notification System Design.md",
+    "readme.md",
     "algoirithms/Rate Limiting.md",
     "algoirithms",
     "databases/research/Google BigTable.md",
