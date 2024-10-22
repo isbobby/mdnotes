@@ -51,13 +51,15 @@ The bulk of the complexity lies within the system, on how it handles a notificat
 
 First, we want to validate, rate limit and prioritise the incoming API calls and messages. Incoming request / queue message will be processed by `Notification Validator`.
 
-Next, based on the validity and priority of the notification, the `Notification Validator` may dispatch the request based different priorities after checking user preferences.
+Next, based on the validity and priority of the notification, the `Notification Validator` may dispatch the request based on different priorities after checking user preferences.
 
-Before a notification is eventually sent to the user, we would do the final bits of processing
+Before a notification is eventually sent to the user, we would do the following
 1. check against user device rate limiting, or other filters such as email bounce lists
 2. insert an attempt to audit database
 
-Now, we can make a call to best-effort notification services. We will do the following steps as post processing steps
+Now, we can make a call to best-effort notification services. In case of unexpected failure, the dispatcher will perform exponentially back off retries. 
+
+We will do the following steps as post processing steps
 1. listen for any asynchronous results, and update the recorded attempt in the database
 2. update user device rate limit
 

@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "software systems/notifications/Push Notification System Design.md",
+                "file": "software systems/identity/Authentication and Authorisation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ae7ff08111a7211",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "software systems/identity/Authentication and Authorisation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "717a4153ae0e4ee4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "software systems/identity/Authentication and Authorisation.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,12 +47,16 @@
             "id": "946d9ef1d2d617e3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "software systems/notifications/Push Notification System Design.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -74,8 +102,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "software systems/identity/Authentication and Authorisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "software systems/identity/Authentication and Authorisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "software systems/identity/Authentication and Authorisation.md"
+              }
             }
           }
         ]
@@ -152,9 +183,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "946d9ef1d2d617e3",
+  "active": "717a4153ae0e4ee4",
   "lastOpenFiles": [
+    "security/bcrypt.md",
+    "software systems/identity/Authentication and Authorisation.md",
+    "software systems/identity/Time Based OTP.md",
     "software systems/notifications/Push Notification System Design.md",
+    "software systems/identity/Authorisation and Authentication",
+    "software systems/identity",
+    "draft.md",
     "readme.md",
     "algoirithms/Rate Limiting.md",
     "algoirithms",
@@ -178,18 +215,12 @@
     "microservices/kubernetes objects",
     "microservices",
     "databases/relational database/Distributed Databases.md",
-    "databases/relational database/database recovery",
     "databases/relational database/Concurrency Control in RDBMS.md",
     "databases/relational database/Transaction Processing and Recovery.md",
     "Distributed.md",
     "().md",
     "networking/HTTP.md",
     "security/RSA.md",
-    "security/SSL, TLS.md",
-    "linux/poll & epoll.md",
-    "linux/File Descriptors.md",
-    "programming language/garbage collection",
-    "networking/HTTPs.md",
     "Untitled.canvas"
   ]
 }
