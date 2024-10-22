@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "717a4153ae0e4ee4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "software systems/identity/Authentication and Authorisation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "946d9ef1d2d617e3",
             "type": "leaf",
             "state": {
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,15 +171,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "717a4153ae0e4ee4",
+  "active": "4ae7ff08111a7211",
   "lastOpenFiles": [
-    "security/bcrypt.md",
+    "computer operating system/concepts/Kernel and Shell.md",
+    "computer operating system/concepts/Directories, Links and Files.md",
+    "Untitled",
+    "draft.md",
+    "linux/File Descriptors.md",
+    "linux/poll & epoll.md",
     "software systems/identity/Authentication and Authorisation.md",
+    "security/bcrypt.md",
     "software systems/identity/Time Based OTP.md",
     "software systems/notifications/Push Notification System Design.md",
     "software systems/identity/Authorisation and Authentication",
     "software systems/identity",
-    "draft.md",
     "readme.md",
     "algoirithms/Rate Limiting.md",
     "algoirithms",
@@ -200,7 +193,6 @@
     "software systems/notifications",
     "databases/relational database/Relational Database Architecture.md",
     "computer operating system/Memory.md",
-    "computer operating system/concepts/Kernel and Shell.md",
     "software systems",
     "computer operating system/concepts",
     "computer operating system/Inter Process Communication.md",
@@ -213,14 +205,9 @@
     "databases/relational database/Relational Database Internals.md",
     "middlewares/message queue/RabbitMQ Internals.md",
     "microservices/kubernetes objects",
-    "microservices",
     "databases/relational database/Distributed Databases.md",
     "databases/relational database/Concurrency Control in RDBMS.md",
     "databases/relational database/Transaction Processing and Recovery.md",
-    "Distributed.md",
-    "().md",
-    "networking/HTTP.md",
-    "security/RSA.md",
     "Untitled.canvas"
   ]
 }
