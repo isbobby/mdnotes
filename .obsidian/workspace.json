@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "4cfa44655c737e69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux concepts/File IO Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "958514ba7d66d310",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "draft.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "946d9ef1d2d617e3",
             "type": "leaf",
             "state": {
@@ -44,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "software systems/identity/Authentication and Authorisation.md",
+                "file": "draft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "software systems/identity/Authentication and Authorisation.md",
+                "file": "draft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "software systems/identity/Authentication and Authorisation.md"
+                "file": "draft.md"
               }
             }
           }
@@ -171,15 +195,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ae7ff08111a7211",
+  "active": "958514ba7d66d310",
   "lastOpenFiles": [
-    "computer operating system/concepts/Kernel and Shell.md",
-    "computer operating system/concepts/Directories, Links and Files.md",
+    "linux concepts/File IO Model.md",
+    "linux concepts/Signal Driven IO.md",
+    "computer system/Virtual Memory.md",
+    "computer system/Processor.md",
+    "computer system/Memory.md",
+    "computer system/Inter Process Communication.md",
+    "linux/linux concepts/File Descriptors.md",
+    "software systems/identity/Authentication and Authorisation.md",
+    "linux concepts/Kernel and Shell.md",
+    "linux concepts/Directories, Links and Files.md",
     "Untitled",
     "draft.md",
-    "linux/File Descriptors.md",
-    "linux/poll & epoll.md",
-    "software systems/identity/Authentication and Authorisation.md",
+    "linux concepts/poll & epoll.md",
     "security/bcrypt.md",
     "software systems/identity/Time Based OTP.md",
     "software systems/notifications/Push Notification System Design.md",
@@ -192,12 +222,8 @@
     "databases/research",
     "software systems/notifications",
     "databases/relational database/Relational Database Architecture.md",
-    "computer operating system/Memory.md",
     "software systems",
-    "computer operating system/concepts",
-    "computer operating system/Inter Process Communication.md",
-    "computer operating system/Virtual Memory.md",
-    "computer operating system/Processor.md",
+    "linux concepts",
     "data structures/Binary Search Tree.md",
     "databases/relational database/Data Layout in Databases.md",
     "databases/NoSQL database/Wide Column Stores.md",
@@ -207,7 +233,6 @@
     "microservices/kubernetes objects",
     "databases/relational database/Distributed Databases.md",
     "databases/relational database/Concurrency Control in RDBMS.md",
-    "databases/relational database/Transaction Processing and Recovery.md",
     "Untitled.canvas"
   ]
 }
