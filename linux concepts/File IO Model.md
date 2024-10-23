@@ -7,7 +7,7 @@ The kernel translates the I/O request into appropriate file system / device oper
 
 The kernel essentially provides one file type - a sequential stream of bytes.
 
-# File Descriptor
+# [File Descriptor](Linux%20File%20Descriptors)
 The I/O system calls refer to files using a file descriptor, a usually small non-negative integer. This file descriptor is obtained with the `open` call.
 
 A program also inherits three special file descriptor when it starts, they are

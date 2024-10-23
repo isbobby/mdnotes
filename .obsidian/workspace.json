@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8b2f310e43b45cc1",
+        "id": "3f6e43b9ef5ff6a0",
         "type": "tabs",
         "children": [
           {
-            "id": "2ddc4473868be581",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "software systems/identity/Authentication and Authorisation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ae7ff08111a7211",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "software systems/identity/Authentication and Authorisation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4cfa44655c737e69",
+            "id": "e3571416bc14cedb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,31 +20,31 @@
             }
           },
           {
-            "id": "958514ba7d66d310",
+            "id": "f74a9a2dddad60aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "draft.md",
+                "file": "linux concepts/Linux File Descriptors.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "946d9ef1d2d617e3",
+            "id": "079ce8df6d8683f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "software systems/notifications/Push Notification System Design.md",
+                "file": "linux concepts/Linux File Descriptors.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "draft.md",
+                "file": "linux concepts/Linux File Descriptors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "draft.md",
+                "file": "linux concepts/Linux File Descriptors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "draft.md"
+                "file": "linux concepts/Linux File Descriptors.md"
               }
             }
           }
@@ -195,24 +171,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "958514ba7d66d310",
+  "active": "079ce8df6d8683f5",
   "lastOpenFiles": [
+    "linux concepts/Linux Networking.md",
+    "linux concepts/Linux File Descriptors.md",
+    "linux concepts/Linux Processes.md",
+    "linux concepts/Linux$20Processes.md",
     "linux concepts/File IO Model.md",
+    "linux concepts/Directories, Links and Files.md",
+    "draft.md",
+    "software systems/identity/Authentication and Authorisation.md",
+    "software systems/notifications/Push Notification System Design.md",
     "linux concepts/Signal Driven IO.md",
     "computer system/Virtual Memory.md",
     "computer system/Processor.md",
     "computer system/Memory.md",
     "computer system/Inter Process Communication.md",
     "linux/linux concepts/File Descriptors.md",
-    "software systems/identity/Authentication and Authorisation.md",
     "linux concepts/Kernel and Shell.md",
-    "linux concepts/Directories, Links and Files.md",
     "Untitled",
-    "draft.md",
     "linux concepts/poll & epoll.md",
     "security/bcrypt.md",
     "software systems/identity/Time Based OTP.md",
-    "software systems/notifications/Push Notification System Design.md",
     "software systems/identity/Authorisation and Authentication",
     "software systems/identity",
     "readme.md",
@@ -228,11 +208,7 @@
     "databases/relational database/Data Layout in Databases.md",
     "databases/NoSQL database/Wide Column Stores.md",
     "databases/NoSQL database",
-    "databases/relational database/Relational Database Internals.md",
-    "middlewares/message queue/RabbitMQ Internals.md",
     "microservices/kubernetes objects",
-    "databases/relational database/Distributed Databases.md",
-    "databases/relational database/Concurrency Control in RDBMS.md",
     "Untitled.canvas"
   ]
 }
