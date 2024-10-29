@@ -34,9 +34,9 @@ Ephemeral is another distinction between file descriptors.
 
 Ephemeral file descriptors are short-lived file descriptors used for temporary operations like socket connections, temporary files, or inter-process communication. They are opened, used, and closed quickly to free resources.
 
-Take [networking](Linux%20Networking.md) server and client as example. A web server is usually a long running process, it will listen at the specified port. This port is not ephemeral.
+Take a long-running web server as example, it will listen at the specified port. This port is not ephemeral.
 
-When a client sends a request, a connection is established - this is usually done with the function `accept()`.  Instead of using the original server socket, a **new client socket is created, and the representing FD** is returned:
+When a client sends a request, a connection is established - this is usually done with the function `accept()` (more details in [networking](Linux%20Networking)).  Instead of using the original server socket, a **new client socket is created, and the representing FD** is returned:
 ```
 int client_socket_fd = accept(sockfd, &client_addr, &client_len);
 ```

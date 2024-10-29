@@ -72,11 +72,15 @@ buffer[numRead] = '\0';
 printf("Data: %s\n", buffer);
 ```
 
-The above will terminate nicely.
+The above will print the data nicely without funky characters.
 
 ## `write()`
+Very similar call to `read()`, here we also provide a memory buffer containing the content we want to write. `count` refers to the number of bytes we want to write from buffer.
+```
+write(fd, *buffer, count);
+```
 
-
+Note that this `write()` call may not be synchronous due to the possible layers of buffering. For example, disk buffers.
 ## `close()`
 Closes an open file descriptor, this frees it for subsequent reuse by the same process. When a process terminates, all of the file descriptors automatically close.
 
@@ -85,4 +89,30 @@ It's a good practice to always close the `fd` especially in long running process
 `close` returns `-1` on error, also helps to catch unopened `fd`s or close the same `fd` twice.
 
 ## `lseek()`
-Changes the file offset. 
+For each open file, the kernel records a file offset. This is also referred to as read-write offset / pointer. We keep this pointer where the next `read()` or `write()` will commence.
+
+The `lseek` has the following interface
+```
+lseek(fd, offset, whence);
+```
+- `offset` specifies a value in bytes
+- `whence` indicates the base point, and is one of the following three values:
+	- `SEEK_SET` indicates beginning
+	- `SEEK_CUR` indicates the current cursor
+	- `SEEK_END` indicates the end of file
+The function will then calculate the new cursor, and return `whence+offset` as the result.
+
+For example
+```
+lseek(fd, 0, SEEK_SET); // start of file
+lseek(fd, 0, SEEK_CUR); // current location
+lseek(fd, 0, SEEK_END); // end of file
+lseek(fd, 10, SEEK_SET); // start of file + 10 bytes
+lseek(fd, -10, SEEK_END); // end of file - 10 bytes
+```
+
+Calling this function only adjusts the kernel's record of the file offset for the particular `fd`, but do not do any physical read.
+
+Although File I/O is supposed to be universal, we can't apply `lseek` to all kinds of `fd`, such as `pipe`, `FIFO` and `socket`. This is because `lseek` essentially provides random access, but these types are designed for sequential data streaming.
+
+### File Holes
