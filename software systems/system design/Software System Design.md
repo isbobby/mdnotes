@@ -22,8 +22,8 @@ There are incremental steps to approach this topic
 8. Monitoring
 ## Strong Foundation
 1. Common Design Patterns for various [requirements](System%20Design%20Requirements.md)
-2. Understanding [core algorithms](Widely%20Used%20Algorithms.md) in software systems
-3. Key components, such as [Load Balancer](Load%20Balancer.md), [CDN](CDN.md), Storage Solutions
+2. Understanding [core algorithms](Common%20Algorithms.md) in software systems
+3. Key components, such as [Load Balancer](Load%20Balancer.md), [CDN](CDN.md), [API gateway](API%20Gateway), Storage Solutions
 ## Practical Skills
 1. Practice building systems
 2. Practice [system load testing](System%20Load%20Testing), with tools like JMeter
@@ -37,3 +37,11 @@ There are incremental steps to approach this topic
 	5. Distributed Databases 
 2. Learn advanced system design patterns
 3. Study real world case studies
+## Case Studies
+### Fundamental Systems
+[[Authentication and Authorisation]]
+[[Time Based OTP]]
+### Complex Systems
+[[Push Notification System Design]]
+[[Card Payment System]]
+[[Google BigTable]]

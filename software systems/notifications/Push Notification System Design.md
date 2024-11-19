@@ -5,7 +5,7 @@
 1. The system must be able to send notifications
 2. Pluggable, the system should allow new notification types to be added / removed easily
 3. Ability to handle large number of receiving clients
-4. [Rate limit](Rate%20Limiting) across topics to avoid overwhelming recipients
+4. [Rate limit](Rate%20Limiting.md) across topics to avoid overwhelming recipients
 5. Allows topic prioritisation, for example, transactional messages such as OTP should be delivered first. 
 6. Allows receiving user to set preferences, such as not receive, or receive via SMS/Email
 # Key Components

@@ -7,7 +7,7 @@ The kernel translates the I/O request into appropriate file system / device oper
 
 The kernel essentially provides one file type - a sequential stream of bytes.
 
-# [File Descriptor](Linux%20File%20Descriptors)
+# [File Descriptor](Linux%20File%20Descriptors.md)
 The I/O system calls refer to files using a file descriptor, a usually small non-negative integer. This file descriptor is obtained with the `open` call.
 
 A program also inherits three special file descriptor when it starts, they are
@@ -28,7 +28,7 @@ The function will then return a file descriptor to the calling process. SUSv3 (u
 
 The flags determined the allowed behaviour of the `fd`, for example
 - `O_APPEND` only append - all writes are appended at the end 
-- `O_ASYNC` generate a signal when I/O becomes possible, this feature is termed *[signal-driven I/O](Signal%20Driven%20IO)*. To enable this, we first need to set this flag using `fcntl() F)SETFL` operation.
+- `O_ASYNC` generate a signal when I/O becomes possible, this feature is termed *[signal-driven I/O](Signal%20Driven%20IO.md)*. To enable this, we first need to set this flag using `fcntl() F)SETFL` operation.
 - `O_CREAT` creates a file if not exists, if we do this, we must also supply a `mode` argument in the `open` call to set the file permission.
 
 For any errors, the `open` function returns `-1`. We can match the `errno` with the cause of the error. Some errors include `EACCES`, `EROFS`.
