@@ -1,3 +1,5 @@
+Obsidian is required to navigate the links.
+
 Journey to building good software.
 
 Fluent in selected [programming languages](Programming%20Languages.md).
