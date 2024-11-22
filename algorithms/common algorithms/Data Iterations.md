@@ -1,4 +1,4 @@
-## [[Cursor-Based Iteration (Server-Side)]]
+## [[Cursor-Based Iteration]]
 
 Also to cover
 1. Linear iteration, one element at a time (for loop)
