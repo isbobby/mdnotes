@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sprint.md",
+                "file": "daily.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sprint"
+              "title": "daily"
             }
           }
         ],
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sprint.md",
+                "file": "daily.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for sprint"
+              "title": "Backlinks for daily"
             }
           }
         ],
@@ -177,11 +177,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b9f42a4ae796e12",
+  "active": "d4a91d704efb8dc4",
   "lastOpenFiles": [
     "Object Storage System Design.md",
     "software systems/system design/Distributed Message Queue System Design.md",
-    "sprint.md",
+    "daily.md",
     "readme.md",
     "software systems/system design/Software System Design.md",
     "software systems/system design/Web Search System.md",
