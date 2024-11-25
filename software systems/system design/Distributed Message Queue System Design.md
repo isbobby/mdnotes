@@ -4,7 +4,7 @@ Why queue? Most of the benefits arise from decoupling work loads, where
 2. decoupled components can be scaled independently
 3. decoupled component's failure has limited effect on another component
 4. decoupling time consuming task allow better performance from asynchronous work
-# Scoping to derive sensible requirements
+# Scoping
 The primary requirement is quite simple - producers can send message to the message queue, and consumers can consume produced message. Some guiding questions are
 
 **Q**: What is the message type, size and format?

@@ -1,7 +1,16 @@
 # Resume Prep
 QnA for listed experiences
 # Go, Redis, PSQL Prep
-
+Redis
+- [x] cache failures (penetration, hot key, avalanche)
+- [x] strategies (aside, write through and back)
+- [ ] deployment mode (single instance, replica, sentinel)
+- [ ] data structures and comparisons
+- [ ] 
+Go
+- [ ] Channel and synchronisation
+- [ ] GC
+- [ ] Routines architecture 
 # Algorithm Prep
 Grind 75 completed in interview condition, fast clear around 8 questions per day
 # System Design Prep
@@ -61,3 +70,25 @@ Algorithm Notes:
 1. Use `rows` and `cols` `rowCount`, `colCount` for BFS question
 2. Keep consistent child function argument position, got time wasting bug in water flow question due to different arg ordering
 3. Can use the provided parameter to construct in-degrees map, as the dependency may only be a subset of the entire space. For example, `numCourses=5, dep=[]`
+
+System Design Notes:
+1. Understand the access pattern of S3 like object store - one write many reads
+2. Consider the similarity of Linux `inode` and an object store - separate metadata and content, and use metadata as index to the actual content 
+3. The core of such system lies in metadata and object storage management
+## 25 Nov Notes
+- [ ] S3 Storage (evening)
+
+System Design Notes:
+1. Key concept for search - inverted indexing which allows `text -> document` type of query. 
+2. Inverted index layer is where the query meets the data
+3. Ranking and sorting - we can either embed algorithms like TF-IDF in the search layer (same server), or move it to a separate service if it needs to be scaled independently
+
+More on Redis:
+1. Three main cache pattern
+	1. write through for high consistency, low writes
+	2. write back for low consistency, high writes
+	3. cache aside for potentially stale, varying read pattern
+2. Cache failures
+	1. cache penetration happens when large query on few missing keys - negative caching 
+	2. cache avalanche when batch eviction - staggered TTL
+	3. hot keys - shard keys to different instances to distribute load / vertical scaling as STF
