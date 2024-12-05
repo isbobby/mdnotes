@@ -1,18 +1,9 @@
 # Overview
-A distributed search engine like Elastic has four main concepts
-1. document
-2. indices
-3. mappings 
-4. fields
-
-**Document** - a document is the unit of data we are looking for, can be a `JSON`
-
-**Indices** - an index is a collection of documents, where each document has a unique ID and a set of fields. Think of index as a database table, search happens here and returns document results that match the criteria
-
-**Mapping & Fields** - the mapping is the schema of the index, which defines the fields that an index will have. This mapping is crucial in telling the search system **how** to interpret the data that's being stored.
-
+A distributed search engine like Elastic has these main concepts
+1. Text Indexing with inverse index
+2. Partition for distributed data storage
 ## Text Indexing
-The main query pattern is to search for documents by its contents, so this requires the construction of an inverted index. For example, given a string `Lucene is a search library`, we may extract non-stop word tokens: `[Lucene, search, library]`.
+The main query pattern is to search for documents by its contents, so this requires the construction of an **inverted index**. For example, given a string `Lucene is a search library`, we may extract non-stop word tokens: `[Lucene, search, library]`.
 
 We can then create a `word -> document` index, where the keyword points to the corresponding document and its position in documents
 ```
@@ -21,10 +12,25 @@ search, [document1, document2]
 library, [document1, document3]
 ```
 
+The `word` will be in sorted order, this allows for **prefix matching**. A reverse inverted index (`apple -> elppa`) can also be created simultaneously, which allows for **suffix matching**.
+
 When we have a big and highly cardinal text space, our index size can increase very rapidly. There are some workarounds to prevent the index from blowing up
 1. Token filter, remove things like `uuid`, `timestamps`
 2. High-cardinality fields like `user IDs` / `timestamps` can be stored as **doc values**, which are optimised for sorting, aggregation, and filtering.
 3. Use `keyword` to enforce exact matching on `uuid` or other IDs
+## Text Indexing Process
+When a document is inserted to the search database, the following occurs
+1. A document is stored in a **search index**, the **search index** functions similar to a database table
+2. The document will pass through an analyser, which breaks the document down into tokens
+3. An inverted index (or other indexes) are created based on the tokens
+4. The document is stored with a corresponding document ID in this index segment. The ID is only unique to the current segment.
+![[search_system_doc_indexing.png]]
+
+The search engine (Lucene) will also handle multiple index segments, the segment design is similar to [LSM trees](LSM%20Tree.md) which inherit some writing advantages. A memory buffer is also used to perform batch writes which further boost write performances. This comes at a cost of query data consistency - it will be **near real time**.
+
+The deletion of a document by ID does not modify the data its original location, instead it adds the deleted ID into a separate location (mark as deleted). Segments may get merged as an optimisation.
+
+![[search_index_and_segments.png]]
 # Scoping
 **Q**: What are the types of search we support?
 **A**: Full text, fuzzy, faceted, geo-spatial are some search types, we can focus on full text and fuzzy.
@@ -46,5 +52,34 @@ When we have a big and highly cardinal text space, our index size can increase v
 
 **Q**: What indexing structure do we support?
 **A**: Inverted index, forward indices.
+# System Design
+Designing is simpler after breaking the system down into sub components.
+- **Indexing System**: Converts raw data into a searchable format.
+- **Cluster Management**: Manages node health, data replication, and failover.
+- **Query Engine**: Processes user search queries and returns relevant results.
+- **API Layer**: Provides user-friendly interfaces for data ingestion and querying.
+- **Monitoring and Metrics**: Tracks system performance and detects issues.
+## Indexing System
+The indexing system is the most unique component to search system. The above section on indexing process gives a good summary on how indexing is carried out in a search engine like Lucene.
 
-# High Level Design
+As we look to distribute the indexing system, we further break it down into these sub-components
+- index node - the server running the particular index
+- shard - a lower level storage unit than an index, index contains multiple shard, each holding its own set of data
+- segment - the lowest level of storage unit, holds the actual data structure which supports inverse index and the document data themselves
+## Cluster Management
+As we distributed and scale the nodes, we need proper cluster management for these nodes in order to
+1. ensure reliability with replication
+2. provide scalability options
+3. node life cycle management
+### Node Roles
+Nodes can have different roles
+1. master node - manages cluster, indices and shards
+2. data node - stores and indexes data, handles search operation, needs good machines
+3. ingestion node - ingests and enrich data before storing
+4. coordinator node - load balances and routes the client request to the relevant node
+5. remote cluster client node - manages cross cluster operations
+## Data Replication
+Data replication in an Elastic cluster is done by replicating shards. Shard can be configured to have any number of replica shards, which are asynchronously updated when there are incoming writes.
+
+# System Diagram
+![[search_system_diagram.png]]

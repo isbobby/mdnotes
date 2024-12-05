@@ -33,7 +33,7 @@ There are incremental steps to approach this topic
 	1. [Consensus Algorithm](Consensus%20Algorithm)
 	2. [Distributed Transactions](Distributed Transaction)
 	3. [Event Sourcing and CQRS](Event%20Sourcing)
-	4. [CAP Theorem](CAP%20Theorem) and [Brewer's Conjecture](Brewer's%20Conjecture.md)
+	4. [Brewer's Conjecture (CAP Theorem)](Brewer's%20Conjecture%20(CAP%20Theorem).md)
 	5. Distributed Databases 
 2. Learn advanced system design patterns
 3. Study real world case studies
@@ -45,3 +45,5 @@ There are incremental steps to approach this topic
 [[Push Notification System Design]]
 [[Card Payment System]]
 [[Google BigTable]]
+[[Distributed Search Engine System Design]]
+[[Live Streaming System Design]]
