@@ -1,3 +1,9 @@
+# Topics
+- Go GC
+- [[Go Slice]]
+- [[Concurrency in Go]]
+- 
+
 # GC
 - Go maintains stack and heap memory, stack are used for function calls and variables scoped within a function, heaps are used for long lived references and objects
 - These references to objects form an object graph, unlike function calls, these objects continue to use memory allocated after their calling function terminates
@@ -23,4 +29,6 @@ channels use lock for synchronisation internally
 excalidraw on the dependency - same lock used in other package?
 
 also touches GO scheduling, channel <> scheduler 
+
+
 
