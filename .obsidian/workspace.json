@@ -4,24 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "295ce5afeb5a5099",
+        "id": "6e53381e6bc1b0af",
         "type": "tabs",
         "children": [
           {
-            "id": "d672421dd69bac5c",
+            "id": "eeff55e14ae8dbb0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "a88905cab09a811d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily.md",
+                "file": "algorithms/data structures/Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily"
+              "title": "Arrays"
+            }
+          },
+          {
+            "id": "5f54621d77e25046",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algorithms/data structures/Arrays.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Arrays"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -52,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "channel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 243.50390243530273
   },
   "right": {
     "id": "21edddcb71abd69f",
@@ -132,17 +157,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily.md",
+                "file": "algorithms/data structures/Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for daily"
+              "title": "Backlinks for Arrays"
             }
           }
         ],
@@ -162,47 +187,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d672421dd69bac5c",
+  "active": "5f54621d77e25046",
   "lastOpenFiles": [
-    "caching/Redis.md",
+    "Untitled.md",
+    "algorithms/data structures/Arrays.md",
     "daily.md",
+    "algorithms/Data Structures and Algorithms.md",
+    "algorithms/Common Algorithms.md",
+    "algorithms/data structures/Sort.md",
     "readme.md",
-    "software systems/system design/Distributed Search Engine System Design.md",
-    "software systems/system design/Object Storage System Design.md",
-    "software systems/system design/Distributed Message Queue System Design.md",
-    "software systems/system design/Web Search System Design.md",
+    "algorithms/common algorithms/Binary Search.md",
+    "algorithms/Invariants.md",
+    "algorithms/problems",
+    "caching/Redis.md",
+    "caching/Memchached.md",
+    "caching/Caching Strategies.md",
+    "caching/Caches.md",
     "software systems/system design/Software System Design.md",
-    "algorithms/common algorithms/Cursor-Based Iteration (Server-Side).md",
+    "CAP Theorem.md",
+    "algorithms/Brewer's Conjecture (CAP Theorem).md",
+    "distributed system/Distributed Systems.md",
+    "distributed system",
+    "algorithms/data structures/LSM Tree.md",
+    "software systems/system design/Distributed Search Engine System Design.md",
+    "software systems/system design/Distributed Message Queue System Design.md",
+    "software systems/system design/Live Streaming System Design.md",
+    "software systems/system design/Object Storage System Design.md",
+    "software systems/system design/Web Search System Design.md",
+    "software systems/system design/assets/search_system_diagram.png",
+    "software systems/system design/assets/search_index_and_segments.png",
+    "software systems/system design/assets/search_system_doc_indexing.png",
+    "software systems/system design/assets/live_stream_system_design_basic.png",
+    "programming language/Lexical Analysis.md",
+    "programming language/Go.md",
+    "Speech.md",
+    "Pasted image 20241126081330.png",
     "software systems/system design/assets/message_queue_topic_partition.png",
     "software systems/system design/assets/message_queue_replicated_brokers.png",
     "software systems/system design/assets/message_queue_high_level.png",
     "software systems/system design/assets",
-    "algorithms/common algorithms/Cursor-Based Iteration.md",
-    "algorithms/common algorithms/draft.md",
-    "algorithms/common algorithms/Data Iterations.md",
-    "algorithms/Common Algorithms.md",
-    "databases/research/Google BigTable.md",
-    "software systems/payment/Card Payment System.md",
-    "software systems/payment/Card Payment Authorization.md",
-    "security/Software Security.md",
-    "algorithms/Uncommon Algorithms.md",
-    "computer network/Computer Network.md",
-    "computer network/HTTP.md",
-    "algorithms/common algorithms/bcrypt.md",
-    "algorithms/common algorithms/RSA.md",
-    "software systems/system design/software requirements/System Design Requirements.md",
-    "software systems/system design/software requirements/Software Performance.md",
-    "computer network/SSL, TLS.md",
-    "algorithms/Brewer's Conjecture.md",
     "algorithms/common algorithms",
-    "Untitled",
     "software systems/system design/software requirements",
     "caching",
     "TCP",
     "computer network",
     "software systems/system design",
     "software systems/components",
-    "software systems/payment",
     "Untitled.canvas"
   ]
 }
