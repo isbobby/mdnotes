@@ -6,7 +6,7 @@ func SearchInts(n int) int {
 	i, j := 0, n
 	for i < j {
 		h := int(uint(i+j) >> 1)
-		if h[i] >= x {
+		if x > h[i] {
 			i = h + 1 
 		} else {
 			j = h 
